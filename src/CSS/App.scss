@@ -1,0 +1,89 @@
+* {
+	margin: auto;
+}
+body {
+	background-color: rgb(46,53,71);
+}
+header {
+	display: block;
+	font-size: 50px;
+	padding-left: 50px;
+	font-family: cursive;
+	color: rgb(255,193,190);
+}
+ul {
+	padding: 0;
+}
+.My-message {
+	height: fit-content;
+	width: 50%;
+	text-align: right;
+	list-style: none;
+	border-radius: 10px;
+	padding: 3px;
+	margin-left: auto;
+	margin-right: 10px;
+	& > li {
+		border-radius: 5px;
+		padding: 5px;
+		text-align: center;
+		background-color: rgb(255,193,190);
+		width: fit-content;
+	}
+}
+.Recived-message {
+	height: fit-content;
+	width: 50%;
+	text-align: left;
+	list-style: none;
+	border-radius: 10px;
+	padding: 3px;
+	margin-right: auto;
+	margin-left: 10px;
+	& > li {
+		border-radius: 5px;
+		padding: 5px;
+		text-align: center;
+		background-color: rgb(140,254,216);
+		width: fit-content;
+	}
+}
+.Message-container {
+	height: 70vh;
+	width: 50%;
+	background-color: rgb(10,95,118);
+	overflow: auto;
+	border-radius: 5px;
+	border: 2px solid rgb(255,193,190);
+}
+.Username {
+	font-weight: bold;
+	font-size: 18px;
+	padding: 1px;
+	color: rgba(253, 255, 254, 0.5);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form {
+	display: flex;
+	width: 50vw;
+	justify-content: space-between;
+	max-width: 900px;
+	margin: 0 auto 40px;
+}
+input {
+	padding: 5px;
+	font-size: 16px;
+	border-radius: 8px;
+	border: 1px solid rgb(255, 171, 118);
+	flex-grow: 1;
+}
+button {
+	height: 2.5em;
+	width: 5em;
+	font-family: cursive;
+	font-weight: bold;
+	background-color: black;
+	color: rgb(255, 215, 213);
+	border: 1px solid rgb(255, 215, 213);
+	border-radius: 8px;
+}

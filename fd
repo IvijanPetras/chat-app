@@ -1,0 +1,122 @@
+warning: LF will be replaced by CRLF in src/App.js.
+The file will have its original line endings in your working directory
+[1mdiff --git a/src/App.css b/src/App.css[m
+[1mdeleted file mode 100644[m
+[1mindex 46b29bc..0000000[m
+[1m--- a/src/App.css[m
+[1m+++ /dev/null[m
+[36m@@ -1,104 +0,0 @@[m
+[31m-*{[m
+[31m-    margin: auto;[m
+[31m-}[m
+[31m-[m
+[31m-body{[m
+[31m-    background-color: rgb(46,53,71);[m
+[31m-    [m
+[31m-}[m
+[31m-[m
+[31m-header{[m
+[31m-    display: block;[m
+[31m-    font-size: 50px;[m
+[31m-    padding-left: 50px;[m
+[31m-    font-family: cursive;[m
+[31m-    color: rgb(255,193,190);[m
+[31m-}[m
+[31m-[m
+[31m-ul{[m
+[31m-    padding: 0;[m
+[31m-}[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-.My-message{[m
+[31m-    height: fit-content;[m
+[31m-    width: 50%;[m
+[31m-    text-align: right;[m
+[31m-    list-style: none;[m
+[31m-    border-radius: 10px;[m
+[31m-    padding: 3px;[m
+[31m-    margin-left: auto; [m
+[31m-    margin-right: 10px;[m
+[31m-    [m
+[31m-}[m
+[31m-[m
+[31m-.Recived-message{[m
+[31m-    height: fit-content;[m
+[31m-    width: 50%;[m
+[31m-    text-align: left;[m
+[31m-    list-style: none;[m
+[31m-    border-radius: 10px;[m
+[31m-    padding: 3px;[m
+[31m-    margin-right: auto;[m
+[31m-    margin-left: 10px;[m
+[31m-}[m
+[31m-[m
+[31m-.Message-container{[m
+[31m-    height: 70vh;[m
+[31m-    width: 50%;[m
+[31m-    background-color:rgb(10,95,118);[m
+[31m-    overflow: auto;[m
+[31m-    border-radius: 5px;[m
+[31m-    border: 2px solid rgb(255,193,190);[m
+[31m-}[m
+[31m-[m
+[31m-.Username{[m
+[31m-    font-weight: bold;[m
+[31m-    font-size: 18px;;[m
+[31m-    padding: 1px;[m
+[31m-    color: rgba(253, 255, 254, 0.5);[m
+[31m-    font-family:Verdana, Geneva, Tahoma, sans-serif[m
+[31m-}[m
+[31m-[m
+[31m-.My-message > li {[m
+[31m-    border-radius: 5px;[m
+[31m-    padding: 5px;[m
+[31m-    text-align: center;[m
+[31m-    background-color: rgb(255,193,190);[m
+[31m-    width: fit-content;[m
+[31m-}[m
+[31m-[m
+[31m-.Recived-message > li {[m
+[31m-    border-radius: 5px;[m
+[31m-    padding: 5px;[m
+[31m-    text-align: center;[m
+[31m-    background-color: rgb(140,254,216);[m
+[31m-    width: fit-content;[m
+[31m-}[m
+[31m-[m
+[31m-form {[m
+[31m-    display: flex;[m
+[31m-    width: 50vw;[m
+[31m-    justify-content: space-between;[m
+[31m-    max-width: 900px;[m
+[31m-    margin: 0 auto 40px;[m
+[31m-  }[m
+[31m-  [m
+[31m-  input {[m
+[31m-    padding: 5px;[m
+[31m-    font-size: 16px;[m
+[31m-    border-radius: 8px;[m
+[31m-    border: 1px solid rgb(255, 171, 118);[m
+[31m-    flex-grow: 1;[m
+[31m-  }     [m
+[31m-  button{[m
+[31m-      height: 2.5em;[m
+[31m-      width: 5em;[m
+[31m-      font-family: cursive;[m
+[31m-      font-weight: bold;[m
+[31m-      background-color: black;[m
+[31m-      color: rgb(255, 215, 213);[m
+[31m-      border: 1px solid rgb(255, 215, 213);[m
+[31m-      border-radius: 8px;[m
+[31m-  }[m
+[1mdiff --git a/src/App.js b/src/App.js[m
+[1mindex e13d2a0..4bd43b4 100644[m
+[1m--- a/src/App.js[m
+[1m+++ b/src/App.js[m
+[36m@@ -1,4 +1,4 @@[m
+[31m-import './App.css';[m
+[32m+[m[32mimport './CSS/App.css';[m
+ import Messages from './Components/Messages';[m
+ import React, { useState, useEffect} from 'react';[m
+ import Input from './Components/Input';[m
